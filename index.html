@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridados Muhai | Lujo y Sushi Premium en Bogotá</title>
+    <!-- Google Fonts for Luxury Aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">BRIDADOS <span class="accent-orange">MUHAI</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#ayce">All-You-Can-Eat</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+                <li><a href="#location">Ubicación</a></li>
+                <li>
+                    <a href="https://www.instagram.com/bridadosmuhai/" target="_blank" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.4 (6,765 reseñas)</span>
+                </div>
+                <h1>El Arte del Sushi <br><span class="accent-orange">Elevado a su Máxima Expresión</span></h1>
+                <p>Sumérgete en una experiencia gastronómica inigualable. Ingredientes premium, ambiente exclusivo y el mejor sabor de la ciudad te esperan en Bridados Muhai.</p>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fi2yhas%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnMuoQgdP-4EE46tDN5xCAD3wwAB0LgwGqwkw7D0gNRckB73atumAJbf3IEwY_aem_7xrdW1j3f8IDSP3Gtj6OKw&e=AT7Oxt3w32P0-FB00DB_74sOOeJjY5kCaeBpfDUFUnFKyPXziZHGiPoVmU1BdXQEnXfRSdHUt1Y_2azJP0GVAyDip2iRZ0BDY-BDxu-ptw" class="btn btn-solid" target="_blank">Reserva Tu Mesa</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section" id="about">
+            <div class="container about-content">
+                <h2 class="section-title">Nuestra <span class="accent-orange">Esencia</span></h2>
+                <p>En Bridados Muhai, no solo servimos sushi; creamos momentos memorables. Nacimos del profundo respeto por la técnica milenaria japonesa, fusionada con la calidez y sofisticación de Bogotá. Cada corte, cada rollo y cada detalle de nuestro espacio está cuidadosamente diseñado para transportarte a un viaje de sabores, texturas y un lujo acogedor. Tu mesa, y una experiencia inigualable, te esperan.</p>
+            </div>
+        </section>
+
+        <!-- All You Can Eat Section -->
+        <section class="ayce-section" id="ayce">
+            <div class="container">
+                <div class="ayce-box">
+                    <h2>All You Can Eat</h2>
+                    <h3>Vive una experiencia sin límites.</h3>
+                    <p>Disfruta de nuestra selecta carta de makis, nigiris y sashimis elaborados al instante con la pesca más fresca del día. Un deleite infinito para los paladares más exigentes, diseñado para que repitas tus favoritos una y otra vez, por un precio excepcional.</p>
+                    <span class="price-tag">$60.000 COP <span style="font-size: 1rem; color: var(--text-muted); font-family: var(--font-body); letter-spacing: 1px;">/ PERSONA</span></span>
+                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fi2yhas%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnMuoQgdP-4EE46tDN5xCAD3wwAB0LgwGqwkw7D0gNRckB73atumAJbf3IEwY_aem_7xrdW1j3f8IDSP3Gtj6OKw&e=AT7Oxt3w32P0-FB00DB_74sOOeJjY5kCaeBpfDUFUnFKyPXziZHGiPoVmU1BdXQEnXfRSdHUt1Y_2azJP0GVAyDip2iRZ0BDY-BDxu-ptw" target="_blank" class="btn btn-outline">Reservar Experiencia</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Menu Section -->
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <h2 class="section-title">Descubre Nuestro <span class="accent-orange">Menú</span></h2>
+                
+                <!-- Filter Buttons -->
+                <div class="menu-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="popular">Populares</button>
+                    <button class="filter-btn" data-filter="rolls">Rollos</button>
+                    <button class="filter-btn" data-filter="ayce">AYCE</button>
+                    <button class="filter-btn" data-filter="cocktails">Cócteles</button>
+                </div>
+
+                <!-- Menu Cards Grid -->
+                <div class="menu-grid" id="menu-grid">
+                    
+                    <!-- Card 1 -->
+                    <div class="dish-card" data-category="popular ayce">
+                        <div class="dish-badge">Popular</div>
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop" alt="Barco Mixto" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Barco Mixto</h3>
+                            <p>Nuestra joya de la corona. Imponente embarcación con nuestra mejor selección de sashimis, nigiris y makis premium para compartir.</p>
+                            <div class="dish-price">$85.000 COP</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="dish-card" data-category="rolls popular">
+                        <div class="dish-badge">Popular</div>
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?q=80&w=2064&auto=format&fit=crop" alt="Rollos de Autor" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Dragón Muhai Roll</h3>
+                            <p>Langostino tempura, aguacate, cubierto con láminas de salmón flameado, salsa de anguila y crujiente topping de la casa.</p>
+                            <div class="dish-price">$38.000 COP</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="dish-card" data-category="popular">
+                        <div class="dish-badge">Popular</div>
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?q=80&w=2000&auto=format&fit=crop" alt="Sashimi Izumi Dai" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Sashimi Izumi Dai</h3>
+                            <p>Delicados cortes de pez tilapia premium. Un bocado suave y fresco que se deshace en el paladar con maestría japonesa.</p>
+                            <div class="dish-price">$32.000 COP</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="dish-card" data-category="rolls">
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=2070&auto=format&fit=crop" alt="Ebi Tempura Roll" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Ebi Fuego Roll</h3>
+                            <p>Camarón crocante, queso crema, cubierto con atún fresco spicy y coronado con nuestra exclusiva salsa dinamita.</p>
+                            <div class="dish-price">$35.000 COP</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="dish-card" data-category="ayce">
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?q=80&w=2071&auto=format&fit=crop" alt="Experiencia AYCE Clásica" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>AYCE Todos Los Días</h3>
+                            <p>Acceso ilimitado a nuestra barra de sushi, makis de autor y bocados tradicionales preparados al instante para ti.</p>
+                            <div class="dish-price">$60.000 COP</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="dish-card" data-category="cocktails">
+                        <div class="dish-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop" alt="Lychee Martini" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Geisha Lychee Martini</h3>
+                            <p>Vodka premium, infusión de lychee, licor de flor de saúco y un toque de limón. Elegante, floral y sumamente refrescante.</p>
+                            <div class="dish-price">$28.000 COP</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Carousel -->
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <div class="carousel-container">
+                    <div class="review-slide active">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Simplemente el mejor sushi de Bogotá. La experiencia All You Can Eat vale cada peso. El ambiente es perfecto y la comida espectacular."</p>
+                        <span class="review-author">— Camila R.</span>
+                    </div>
+                    <div class="review-slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"Excelente calidad de pescados y el servicio es impecable. El Barco Mixto es de otro planeta y super fresco. Muy recomendado."</p>
+                        <span class="review-author">— Andrés G.</span>
+                    </div>
+                    <div class="review-slide">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>"Un oasis en la ciudad. El precio por el All You Can Eat es increíblemente bueno para la altísima calidad que ofrecen. Un lujo accesible."</p>
+                        <span class="review-author">— Valentina M.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Contact -->
+        <section class="location-section" id="location">
+            <div class="container location-wrapper">
+                <div class="contact-info">
+                    <h2>Encuéntranos en <span class="accent-orange">Bogotá</span></h2>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 style="color: var(--brand-peach); margin-bottom: 5px;">Dirección</h4>
+                            <p>Cra. 6 #119b-38<br>Usaquén, Bogotá, Colombia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4 style="color: var(--brand-peach); margin-bottom: 5px;">Reservas & Domicilios</h4>
+                            <p>(601) 7179492</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="far fa-clock"></i>
+                        <div>
+                            <h4 style="color: var(--brand-peach); margin-bottom: 5px;">Horario de Atención</h4>
+                            <p>Lunes - Domingo: 12:00 PM - 10:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.438520779774!2d-74.0326848852377!3d4.69460599658999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a94165dc9b3%3A0x63c3deba4a8f9f0!2sCra.%206%20%23119b-38%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1689304910294!5m2!1sen!2sco" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">BRIDADOS <span class="accent-orange">MUHAI</span></div>
+            <div class="footer-tagline">"Elevando tus sentidos, un bocado a la vez."</div>
+            
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/bridadosmuhai/" target="_blank" aria-label="Síguenos en Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 20px;">
+                &copy; 2026 Bridados Muhai. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fi2yhas%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnMuoQgdP-4EE46tDN5xCAD3wwAB0LgwGqwkw7D0gNRckB73atumAJbf3IEwY_aem_7xrdW1j3f8IDSP3Gtj6OKw&e=AT7Oxt3w32P0-FB00DB_74sOOeJjY5kCaeBpfDUFUnFKyPXziZHGiPoVmU1BdXQEnXfRSdHUt1Y_2azJP0GVAyDip2iRZ0BDY-BDxu-ptw" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Vanilla JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
